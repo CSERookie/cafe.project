@@ -60,10 +60,10 @@ class _DenemeeState extends State<Denemee> {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "SOLARITS ",
+            "CAFE PROJECT ",
             style: TextStyle(fontSize: 35, color: Colors.white),
           ),
-          backgroundColor: Colors.orange.shade400,
+          backgroundColor: Colors.blue.shade400,
         ),
         drawer: Drawer(
         child: ListView(
@@ -72,7 +72,7 @@ class _DenemeeState extends State<Denemee> {
             DrawerHeader(
               child: Text('CAFE',textAlign: TextAlign.center,style: TextStyle(fontSize: 25),),
               decoration: BoxDecoration(
-                color: Colors.orange.shade500,
+                color: Colors.blue.shade500,
               ),
             ),
             ListTile(
@@ -90,7 +90,7 @@ class _DenemeeState extends State<Denemee> {
           //padding: EdgeInsets.symmetric(vertical: 5),
           decoration: BoxDecoration(
               gradient: LinearGradient(
-                  colors: [Colors.orange.shade900, Colors.orange.shade300],
+                  colors: [Colors.blue.shade900, Colors.blue.shade300],
                   begin: Alignment(-1.0, 1.0),
                   end: Alignment(1.0, -1.0))),
           child: Column(
@@ -98,7 +98,7 @@ class _DenemeeState extends State<Denemee> {
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
               Container(
-                //color: Colors.orange.shade200,
+                //color: Colors.blue.shade200,
                 alignment: Alignment.center,
                 child: ScaleAnimatedTextKit(
     onTap: () {
@@ -109,7 +109,7 @@ class _DenemeeState extends State<Denemee> {
       ],
     textStyle: TextStyle(
         fontSize: 30.0,
-        color: Colors.orange.shade800
+        color: Colors.blue.shade800
         
     ),
     textAlign: TextAlign.start,
@@ -118,12 +118,12 @@ class _DenemeeState extends State<Denemee> {
                 /*Text(
                   "WOW BEACH",
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.orange.shade800, fontSize: 30),
+                  style: TextStyle(color: Colors.blue.shade800, fontSize: 30),
                 ), */
                 margin: EdgeInsets.only(top: 5, left: 5, right: 5),
                 height: 40,
                 decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
+                    color: Colors.blue.shade100,
                     borderRadius: BorderRadius.all(Radius.circular(30))),
               ),
               Container(
@@ -214,7 +214,7 @@ class _DenemeeState extends State<Denemee> {
                       shape: BoxShape.circle,
                       color: Colors.grey.shade400,
                       border: Border.all(
-                          color: Colors.orange.shade700,
+                          color: Colors.blue.shade700,
                           width: 5,
                           style: BorderStyle.solid),
                     ),
@@ -235,7 +235,7 @@ class _DenemeeState extends State<Denemee> {
                               style:
                                   TextStyle(fontSize: 26, color: Colors.white),
                             ),
-                            color: Colors.orange,
+                            color: Colors.blue,
                             shape: CircleBorder(),
                             onPressed: () =>  Navigator.push(context,MaterialPageRoute(builder: (context) => MenuPage())),
                             //Navigator.push(context,MaterialPageRoute(builder: (context) => MenuPage())),
@@ -257,7 +257,7 @@ class _DenemeeState extends State<Denemee> {
                             "ETKİNLİK",
                             style: TextStyle(fontSize: 13, color: Colors.white),
                           ),
-                          color: Colors.orange,
+                          color: Colors.blue,
                           shape: CircleBorder(),
                           onPressed: () => 
                            Navigator.push(context,MaterialPageRoute(builder: (context) => ActivityPage())),
@@ -281,7 +281,7 @@ class _DenemeeState extends State<Denemee> {
                             style: TextStyle(fontSize: 14, color: Colors.white),
                             textAlign: TextAlign.center,
                           ),
-                          color: Colors.orange,
+                          color: Colors.blue,
                           shape: CircleBorder(),
                           onPressed: () => _alertDialogGoster(context),
                         ),
@@ -296,7 +296,7 @@ class _DenemeeState extends State<Denemee> {
                         height: 100,
                         child: Container(
                           decoration: BoxDecoration(
-                              //color: Colors.orange,
+                              //color: Colors.blue,
                               border: Border.all(color: Colors.white, width: 5),
                               shape: BoxShape.circle),
                           child: RaisedButton(
@@ -306,7 +306,7 @@ class _DenemeeState extends State<Denemee> {
                                   TextStyle(fontSize: 16, color: Colors.white),
                               textAlign: TextAlign.center,
                             ),
-                            color: Colors.orange,
+                            color: Colors.blue,
                             shape: CircleBorder(),
                             onPressed: () => _hesapIste(context),
                           ),

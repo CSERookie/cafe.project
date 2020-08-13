@@ -15,7 +15,7 @@ class MenuPage extends StatelessWidget {
             'Category',
             style: TextStyle(fontSize: 35,),
           ),
-          backgroundColor: Colors.orange.shade400,
+          backgroundColor: Colors.blue.shade400,
         ),
         body: Row(
           children: <Widget>[
