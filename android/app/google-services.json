@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "257176571872",
+    "firebase_url": "https://enes-85ed9.firebaseio.com",
+    "project_id": "enes-85ed9",
+    "storage_bucket": "enes-85ed9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257176571872:android:2b5748dca2ee6eda",
+        "android_client_info": {
+          "package_name": "com.example.firestore1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257176571872-f3qi3guf1quohg80kum8n1ea27gdfe89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI2mPtCWgFRhj9cp5uq4gZXWzXHqgjrcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257176571872-f3qi3guf1quohg80kum8n1ea27gdfe89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257176571872:android:93bdb57ad8a9e028",
+        "android_client_info": {
+          "package_name": "com.example.solarits2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257176571872-f3qi3guf1quohg80kum8n1ea27gdfe89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI2mPtCWgFRhj9cp5uq4gZXWzXHqgjrcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257176571872-f3qi3guf1quohg80kum8n1ea27gdfe89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
